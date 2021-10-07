@@ -6399,12 +6399,22 @@ transition:.5s;
   	transform: scale(1.1);
 }
 
- .di-small{
-	position:absolute;
+.di-big{
+	position:relative;
 	width:50%;
 	height:50%;
-	top:75%;
-	left:-35%;
+	top:102px;
+	right:35px;
+	z-index:1;
+
+}
+
+ .di-small{
+	position:relative;
+	width:40%;
+	height:50%;
+	top:170px;
+	right:10px;
 	z-index:-1;
 	
 	
@@ -6418,6 +6428,16 @@ transition:.5s;
 	bottom:-10%;
 	z-index:1;
 }
+
+/* .di-big{
+	position:relative;
+	width:50%;
+	height:50%;
+	top:100px;
+	left:35px;
+	z-index:1;
+
+} */
 
 /* schedule */
 
